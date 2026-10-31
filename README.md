@@ -11,7 +11,7 @@ reproduzido em Vulkan, sem emulador.
 
 ## Vídeo
 
-🎬 Gameplay no Android — link a ser adicionado.
+🎬 Gameplay no Android: [baldo the guardian owls Android port](https://youtu.be/If5HOBy5hNs)
 
 ## Projeto funcional — sem ROM e sem chaves
 
