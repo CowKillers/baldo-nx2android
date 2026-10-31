@@ -13,6 +13,19 @@ reproduzido em Vulkan, sem emulador.
 
 🎬 Gameplay no Android — link a ser adicionado.
 
+## Projeto funcional — sem ROM e sem chaves
+
+Este repositório **é** o projeto: além deste README, ele traz o perfil
+provisório do port em `profile/0100A75005E92000/`, o relatório do survey em
+`docs/survey.md` e o passo a passo de build/edição em `BUILD.md`. Com eles,
+qualquer pessoa com o nx2android, a sua própria ROM e as suas próprias chaves
+consegue editar e rebuildar este port — sem precisar refazer o survey.
+
+O que **não** está aqui, de propósito: ROM (XCI/NSP), `prod.keys` ou qualquer
+chave, APK, dados, `shaders.dmsv`, módulos reescritos, logs ou capturas do
+jogo. As "chaves" nas tabelas de shaders são identificadores (hashes) dos
+shaders, não chaves criptográficas.
+
 ## Estado atual (31/10/2026, honesto)
 
 - Port experimental construído com o porter do nx2android
