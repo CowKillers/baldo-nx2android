@@ -1,0 +1,22 @@
+# Nada do jogo, das chaves, do APK, dos dados ou dos logs entra aqui.
+*.xci
+*.nsp
+*.nsz
+*.xcz
+*.apk
+*.aab
+prod.keys
+title.keys
+*.keys
+shaders.dmsv
+shaders*.dmsv
+RomFS/
+mods/
+*-data/
+*-data.zip
+*.log
+log.txt
+log.prev.txt
+captured_shaders/
+env.txt
+settings.txt
