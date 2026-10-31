@@ -30,6 +30,25 @@ esses tipos).
 - Android NDK 27.2.12479018, .NET SDK 10.0.403, adb (platform-tools)
 - Comando original: `python -m porter port <pasta-do-jogo> --experimental --debug`
 
+## Requisito que NÃO está neste repositório
+
+O código do nx2android em si **não** está aqui — este repo só traz o perfil
+do Baldo. No outro PC, baixe o nx2android à parte
+(https://github.com/shirai91/nx2android) e rode `porter doctor` antes de
+buildar. No Windows, o release vem como `nx2android.exe`; no Linux, rode
+com `python -m porter`. O comando abaixo usa a forma Python; no Windows,
+troque `python -m porter port` por `nx2android.exe port`.
+
+## Versão da ROM: tem que ser a mesma
+
+O perfil só registra a versão **1.1.0 (v0)**, com os build IDs
+`main=ab144284…`, `subsdk0=84e50460…`, `sdk=d9add76f…`. Se a ROM do outro PC
+for outra versão, outra região ou outro update, o porter recusa o build
+("not the builds the provisional profile registers"). Nesse caso, apague a
+pasta do perfil copiada e rode o port de novo: ele faz o survey de novo e
+gera um perfil novo para aquela versão. O perfil deste repo só é reutilizado
+quando a ROM bate com a versão que ele registra.
+
 ## Como buildar (com a sua ROM e as suas chaves)
 
 1. Instale o nx2android e a toolchain acima, e configure as suas `prod.keys`
@@ -63,6 +82,9 @@ esses tipos).
 - **Mudar o comportamento do host (ex.: investigar o flicker do menu):**
   edite o código do nx2android (upstream, em `nxnative/dm/android/`), não os
   módulos reescritos do jogo — esses são gerados e não são editáveis aqui.
+  Atenção: essa edição fica no clone do nx2android, **não** neste repositório
+  do Baldo. Para guardar/compartilhar uma edição de host, commite-a no seu
+  fork do nx2android, separado deste repo.
 - **Mudar o APK/launcher:** o APK do porter é só `NativeActivity`; qualquer
   launcher é um APK à parte, com o mesmo pacote, que lança a `NativeActivity`.
 - **Depois de editar:** rode o port de novo, confira o APK no binário
