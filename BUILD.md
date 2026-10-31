@@ -49,6 +49,12 @@ pasta do perfil copiada e rode o port de novo: ele faz o survey de novo e
 gera um perfil novo para aquela versão. O perfil deste repo só é reutilizado
 quando a ROM bate com a versão que ele registra.
 
+## Espaço em disco
+
+O porter verifica espaço antes de extrair: ele pede cerca de 2x o tamanho
+do jogo livre, mais 1 GB de margem (para o Baldo, com 1,67 GB de ROM, deixe
+uns 5 GB livres no disco onde fica a pasta do jogo).
+
 ## Como buildar (com a sua ROM e as suas chaves)
 
 1. Instale o nx2android e a toolchain acima, e configure as suas `prod.keys`
