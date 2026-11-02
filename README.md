@@ -13,14 +13,6 @@ reproduzido em Vulkan, sem emulador.
 
 🎬 Gameplay no Android: [baldo the guardian owls Android port](https://youtu.be/If5HOBy5hNs)
 
-## Captura
-
-![Gameplay de Baldo no Android](docs/gameplay.jpg)
-
-Captura única de gameplay no Android, publicada como **exceção explícita** por
-decisão dele em 02/11/2026. O resto da regra continua valendo: nada do jogo,
-das chaves, do APK, dos dados, dos shaders ou dos logs entra aqui.
-
 ## Projeto funcional — sem ROM e sem chaves
 
 Este repositório **é** o projeto: além deste README, ele traz o perfil
@@ -30,8 +22,8 @@ qualquer pessoa com o nx2android, a sua própria ROM e as suas próprias chaves
 consegue editar e rebuildar este port — sem precisar refazer o survey.
 
 O que **não** está aqui, de propósito: ROM (XCI/NSP), `prod.keys` ou qualquer
-chave, APK, dados, `shaders.dmsv`, módulos reescritos, logs ou outras capturas do
-jogo (exceto a captura única acima, publicada por decisão explícita dele em 02/11/2026). As "chaves" nas tabelas de shaders são identificadores (hashes) dos
+chave, APK, dados, `shaders.dmsv`, módulos reescritos, logs ou capturas do
+jogo. As "chaves" nas tabelas de shaders são identificadores (hashes) dos
 shaders, não chaves criptográficas.
 
 ## Estado atual (31/10/2026, honesto)
