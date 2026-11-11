@@ -5,13 +5,15 @@ Port experimental de **Baldo: The Guardian Owls** (Switch) para Android, feito c
 nativamente no celular, com o host substituindo os serviços do Switch e o NVN
 reproduzido em Vulkan, sem emulador.
 
-> **Experimental — sem release.** Este repositório não contém o jogo, as chaves,
-> o APK, os dados, os shaders nem nenhum arquivo extraído do jogo. Não há release
-> aqui, e não haverá, até que o port esteja provado no aparelho.
+> **Experimental.** Este repositório não contém o jogo, as chaves,
+> o APK, os dados, os shaders nem nenhum arquivo extraído do jogo. Há uma
+> release pública do launcher em
+> [Releases](https://github.com/CowKillers/baldo-nx2android/releases) (Baldo Launcher 0.1).
 
 ## Vídeo
 
 🎬 Gameplay no Android: [baldo the guardian owls Android port](https://youtu.be/If5HOBy5hNs)
+🎬 Gameplay no Poco X3 Pro: [Baldo The Guardian Owls Android Port](https://youtu.be/f1hPexDHj30)
 
 ## Projeto funcional — sem ROM e sem chaves
 
